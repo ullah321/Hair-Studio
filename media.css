@@ -1,0 +1,51 @@
+@media(max-width: 770px){
+    .banner-text{
+        padding-top: 52%;
+    }
+    .banner-text h1{
+        font-size: 60px;
+    }
+    .banner-text p{
+        font-size: 16px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+    .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+        margin: auto;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .single-service{
+        flex-basis: 100%;
+    }
+    .single-service:hover .service-desc{
+        bottom: 30% !important;
+    }
+    .service-desc p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+    .footer-left, .footer-right{
+        flex-basis: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-img{
+        top: 25%;
+    }
+}
